@@ -1,0 +1,26 @@
+Source: kylin-application
+Section: utils
+Priority: optional
+Maintainer: caoliang <caoliang@kylinos.cn>
+Build-Depends: debhelper,
+               qtbase5-dev,
+               qt5-qmake,
+               qtchooser,
+               qtscript5-dev,
+               qttools5-dev-tools,
+               qtbase5-dev-tools,
+			   libkf5windowsystem-dev,
+			   libx11-dev,
+			   libgsettings-qt-dev,
+			   pkgconf
+Standards-Version: 4.4.1
+Homepage: https://github.com/ubuntukylin/kylin-application
+#Vcs-Browser: https://github.com/ubuntukylin/kylin-application
+#Vcs-Git: https://github.com/ubuntukylin/kylin-application.git
+
+Package: kylin-application
+Architecture: any
+Depends: ${shlibs:Depends}, 
+		 ${misc:Depends}
+Description: kylin-application
+ <insert long description, indented with spaces>
